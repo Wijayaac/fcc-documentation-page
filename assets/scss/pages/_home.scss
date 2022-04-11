@@ -1,0 +1,19 @@
+@use "../util/mq";
+h1,
+.h1 {
+  font-size: $text-xl;
+}
+h2,
+.h2 {
+  font-size: $text-lg;
+}
+.btn {
+  display: inline-block;
+
+  padding: 0.75em 1.5em;
+  border-radius: 0.5em;
+  &--cta {
+    background-color: $primary-color;
+    color: $black;
+  }
+}
